@@ -1,0 +1,8 @@
+@import "_variables.css";
+@import "_nav.css";
+@import "_jumbotron.css";
+
+body {
+  background: #191c5a;
+  color: white;
+}

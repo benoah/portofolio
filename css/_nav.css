@@ -1,0 +1,42 @@
+.navbar {
+  background-color: transparent !important;
+}
+.navbar-brand {
+  font-size: 1.5rem;
+  color: #f7f7f8;
+  font-weight: bold;
+}
+
+.navbar-brand span {
+  color: #ff091a;
+}
+.navbar-dark .navbar-nav .nav-link {
+  color: #e8e8ee;
+  font-size: 16px;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #e8e8ee;
+  font-size: 16px;
+}
+.navbar-dark .navbar-nav .nav-link span {
+  margin-right: 8px;
+}
+btn-group-sm > .btn,
+.btn-sm {
+  border-radius: 6px;
+  background-color: transparent;
+  border-color: #7b72c6;
+  margin-left: 8px;
+}
+.navbar-collapse {
+  z-index: 1;
+}
+
+.navbar-dark .navbar-toggler-icon span {
+  background: #7b72c6;
+}
+.navbar-dark .navbar-toggler {
+  color: transparent;
+  border-color: #7b72c6;
+}
