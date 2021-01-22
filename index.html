@@ -15,14 +15,15 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
+    <nav class="navbar sticky-top  navbar-expand-lg navbar-dark bg-dark ">
         <div class="container">
             <a class="navbar-brand" href="#">Noah<span>Ben</span></a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent "
+                #mainMenu"" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon">
 
+                </span>
+            </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item active">
@@ -38,77 +39,67 @@
                     <li class="nav-item">
                         <a class="nav-link" href="contact.html"><span>04.</span>Contact</a>
                     </li>
-                    <button type="button" class="btn btn-primary btn-sm">Small button</button>
+
+                    <button type="button" class="btn btn-primary btn-sm">Resume</button>
                 </ul>
             </div>
         </div>
     </nav>
+
+
     <div class="container">
         <div class="row">
-            <div class="col-1 ">
+            <div class="col-1 hide">
                 <nav class="socialIcon">
-
-                    <ul>
-                        <li class="facebook">
-                            <i class="fa fa-facebook" aria-hidden="true"></i>
-                        </li>
-                        <li class="twitter">
-                            <i class="fa fa-twitter" aria-hidden="true"></i>
-
-                        </li>
-
-                        <li class="instagram">
-                            <i class="fa fa-instagram" aria-hidden="true"></i>
-
-                        </li>
-                        <li class="google">
-                            <i class="fa fa-google" aria-hidden="true"></i>
-
-
-                        </li>
-
-                    </ul>
+                    <i class="fa fa-facebook" aria-hidden="true"></i>
+                    <i class="fa fa-twitter" aria-hidden="true"></i>
+                    <i class="fa fa-instagram" aria-hidden="true"></i>
+                    <i class="fa fa-google" aria-hidden="true"></i>
+                    <i class="fa fa-github" aria-hidden="true"></i>
+                    <i class="fa fa-dribble" aria-hidden="true">
+                    </i>
+                    <div class="line"></div>
                 </nav>
-
             </div>
-            <div class="col-10">
-                <div class="jumbotron">
-                    <h3>Hello, I am</h3>
-                    <h1>Ben Noah Aas</h1>
-                    <h1 class="display-4">I like to build things for web.</h1>
-                    <p>A Frontend/UX designer with passion to build website and application.
+            <div class="col-sm-12 col-lg-10 ">
+                <div class="jumbotron ">
+                    <p class="jumbotronIntro">Hello, I am
+                    <p>
+                    <h1 class="jumbotronName">Ben Noah Aas.</h1>
+                    <p class="jumbotronDescriptionHeader">I like to build things for web.</p>
+                    <p class="jumbotronDescription">A <span> Frontend/UX designer</span> with passion to build
+                        website and application.
                     </p>
-                    <p class="lead">
-                        <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
-                    </p>
+
+                    <nav class="socialIcon socialIconMobile  ">
+                        <i class="fa fa-facebook" aria-hidden="true"></i>
+                        <i class="fa fa-twitter" aria-hidden="true"></i>
+                        <i class="fa fa-instagram" aria-hidden="true"></i>
+                        <i class="fa fa-google" aria-hidden="true"></i>
+                        <i class="fa fa-github" aria-hidden="true"></i>
+                        <i class="fa fa-dribble" aria-hidden="true">
+                        </i>
+                        <div class="line"></div>
+                    </nav>
+                    <br>
+                    <a class="btn btn-primary btn-lg" href="#" role="button">Get in touch</a>
 
                 </div>
             </div>
-            <div class="col-1">
-                <ul>
-                    <li class="mail">
-                        <p>ben@mail.com</p>
-                    </li>
-                    <div class="divider py-8 bg-light">
-                        <hr>
-                    </div>
-                </ul>
+            <div class="col-1 hide">
+                <p class="socialIconMail">noahbenaas@gmail.com</p>
+                <div class="linemail"></div>
             </div>
         </div>
-    </div>
-
-
-
-
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
-        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
-        crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+            integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+            crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+            integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+            crossorigin="anonymous"></script>
 </body>
 
 </html>

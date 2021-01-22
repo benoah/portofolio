@@ -1,67 +1,131 @@
-.col-10 .jumbotron {
+@media screen and (max-width: 812px) {
+  .hide {
+    display: none;
+  }
+}
+
+.jumbotron {
   background-color: transparent;
-  
 }
 
-.socialIcon {
-  position: fixed;
-  margin-top: 160px;
-  transition: all 0.3s linear;
- 
-
+.btn-primary {
+  color: #f7f7f8;
+  background-color: transparent;
+  border-color: #7b72c6;
+  font-size: 16px;
+  padding: 16px;
 }
-.socialIcon ul {
-    margin-top: 0;
-    margin-bottom: 0rem;
-    text-decoration: none;
+.jumbotronIntro {
+  color: #e8e8ee;
+  font-weight: 600;
+  font-size: 16px;
+}
+.jumbotronName {
+  color: #d1d1de;
+  font-weight: 700;
+}
+
+.jumbotron span {
+  color: #ff091a;
+}
+
+.jumbotronDescriptionHeader {
+  font-weight: 700;
+  color: #7b72c6;
+  font-size: 24px;
+}
+.jumbotronDescription {
+  font-size: 16px;
+  color: #e8e8ee;
+  font-weight: 400;
+  margin-top: 8px;
+  margin-bottom: 32px;
+}
+.socialIconMobile {
+  display: flex;
+  font-size: 24px;
+  margin-bottom: 32px;
+}
+.socialIconMobile :nth-of-type(1n) {
+  margin-right: 16px;
+  font-size: 16px;
+}
+
+@media screen and (min-width: 812px) {
+  .socialIconMobile {
+    display: none;
+  }
+  .socialIcon {
+    position: sticky;
+    top: 70%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
   }
 
-
-  .socialIcon li {
-    height: 24px;
-    position: relative;
-    margin-bottom: 16px;
-    
-  }
-
-.socialIcon li i {
-    color: #D1D1DE !important;
+  .socialIcon i {
     display: block;
-    height: 100%;
-    width: 100%;
-    line-height: 80px;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.4);
-    transition: all 0.3s linear;
-    text-decoration: none !important;
+    text-align: center;
+    padding: 16px;
+    transition: all 0.3s ease;
+    color: #e8e8ee;
+    font-size: 14px;
+    white-space: pre-wrap;
+    font-weight: 200;
   }
 
- 
-/*
+  .socialIconMail {
+    transform: rotate(90deg);
+    position: sticky;
+    top: 40%;
+    letter-spacing: 0.3rem;
+    font-size: 14px;
+    color: #e8e8ee;
+    font-weight: 200;
+    transition: all 0.3s ease;
+  }
 
+  .line {
+    position: absolute;
+    right: 50%;
+    top: 80%;
+    bottom: 0;
+    width: 1px;
+    height: 64px;
+    background: #7b72c6;
+  }
+  .linemail {
+    position: absolute;
+    right: 50%;
+    top: 78%;
+    bottom: 0;
+    width: 1px;
+    height: 64px;
+    background: #7b72c6;
+  }
+  .jumbotronIntro {
+    font-weight: 200;
+    font-size: 40px;
+    line-height: 1.1;
+  }
 
+  .jumbotronName {
+    font-size: 80px;
+    line-height: 1.1;
+    font-weight: 700;
+  }
 
-
-.socialIcon li fa {
-  color: #fff !important;
-  display: block;
-  height: 100%;
-  width: 100%;
-  line-height: 45px;
-  padding-left: 25%;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.4);
-  transition: all 0.3s linear;
-  text-decoration: none !important;
-}
-
-.socialIcon fa:hover {
-  z-index: 1;
-  width: 200px;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.5);
-  box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.3);
-}
-
-.socialIcon ul li:hover a span {
-  padding-left: 30%;
-  display: block;
-  font-size: 15px;
+  .jumbotronDescriptionHeader {
+    font-size: 56px;
+    line-height: 1.1;
+    font-weight: 700;
+    margin-bottom: 32px;
+  }
+  .jumbotronDescription {
+    font-size: 16px;
+    margin-bottom: 40px;
+  }
+  .btn-lg {
+    padding: 16px;
+  }
 }

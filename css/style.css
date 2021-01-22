@@ -1,8 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap");
+
 @import "_variables.css";
 @import "_nav.css";
 @import "_jumbotron.css";
+@import "_typogra.css";
 
 body {
   background: #191c5a;
   color: white;
+  font-family: "Poppins", sans-serif;
 }
