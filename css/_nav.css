@@ -41,18 +41,14 @@
   color: transparent;
   border-color: transparent;
 }
-
 .btn-sm {
   background: transparent;
   color: #e8e8ee;
   border-color: #7b72c6;
   padding: 16px;
-  white-space: pre-line;
-  width: 120px;
   display: block;
-  margin-top: 16px;
+  margin-top: 32px;
 }
-
 .btn-sm span {
   color: #7b72c6;
 }
@@ -85,7 +81,7 @@
     content: "";
     width: calc(100% - 1px);
     height: 1px;
-    background: #e8e8ee;
+    background: #ff091a;
     bottom: -6px;
     left: 0;
     -webkit-transform: scale(0, 1);
@@ -108,10 +104,11 @@
     transform-origin: left center;
   }
   .btn-sm {
-    margin: auto;
-    padding: 4px;
-    width: 112px;
-    margin-top: 16px;
-    border-radius: 6px;
+    background: transparent;
+    color: #e8e8ee;
+    border-color: #7b72c6;
+    padding: 16px;
+    display: block;
+    margin-top: 8px;
   }
 }

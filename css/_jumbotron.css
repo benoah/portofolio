@@ -15,6 +15,10 @@
   font-size: 16px;
   padding: 16px;
 }
+.btn-lg {
+  padding: 16px;
+  margin-bottom: 240px;
+}
 .jumbotronIntro {
   color: #e8e8ee;
   font-weight: 600;
@@ -58,7 +62,7 @@
   }
   .socialIcon {
     position: sticky;
-    top: 70%;
+    margin-top: 128px;
     -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
@@ -78,7 +82,7 @@
   .socialIconMail {
     transform: rotate(90deg);
     position: sticky;
-    top: 50%;
+    margin-top: 80px;
     letter-spacing: 0.4rem;
     font-size: 14px;
     color: #e8e8ee;
@@ -86,24 +90,6 @@
     transition: all 0.3s ease;
   }
 
-  .line {
-    position: absolute;
-    right: 50%;
-    top: 80%;
-    bottom: 0;
-    width: 1px;
-    height: 64px;
-    background: #7b72c6;
-  }
-  .linemail {
-    position: absolute;
-    right: 50%;
-    top: 90%;
-    bottom: 0;
-    width: 1px;
-    height: 64px;
-    background: #7b72c6;
-  }
   .jumbotronIntro {
     font-weight: 200;
     font-size: 40px;
@@ -125,8 +111,5 @@
   .jumbotronDescription {
     font-size: 16px;
     margin-bottom: 40px;
-  }
-  .btn-lg {
-    padding: 16px;
   }
 }

@@ -4,6 +4,7 @@
 @import "_nav.css";
 @import "_jumbotron.css";
 @import "_typogra.css";
+@import "_about.css";
 
 body {
   background: #191c5a;
