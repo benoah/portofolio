@@ -19,6 +19,7 @@
   color: #e8e8ee;
   font-weight: 600;
   font-size: 16px;
+  margin-bottom: 24px;
 }
 .jumbotronName {
   color: #d1d1de;
@@ -33,18 +34,18 @@
   font-weight: 700;
   color: #7b72c6;
   font-size: 24px;
+  margin-bottom: 24px;
 }
 .jumbotronDescription {
   font-size: 16px;
   color: #e8e8ee;
   font-weight: 400;
-  margin-top: 8px;
-  margin-bottom: 32px;
 }
+
 .socialIconMobile {
   display: flex;
   font-size: 24px;
-  margin-bottom: 32px;
+  margin-bottom: 64px;
 }
 .socialIconMobile :nth-of-type(1n) {
   margin-right: 16px;
